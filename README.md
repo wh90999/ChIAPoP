@@ -1,5 +1,5 @@
 # ChIAPoP
-ChIAPoP: A integrated tool for ChIA-PET data analysis
+ChIAPoP: An integrated tool for ChIA-PET data analysis
 
 # Prerequisite tools
 * `bowtie` (http://bowtie-bio.sourceforge.net/index.shtml) for read alignment
@@ -14,6 +14,9 @@ If `bowtie` and `macs2` are not installed in system search paths (e.g. `/usr/bin
 * cd ChIAPoP
 * R CMD INSTALL ChIAPoP_0.99.9.5.tar.gz
 ```
+# Documentation
+The full ChIAPoP R Package manual is available at https://github.com/wh90999/ChIAPoP/ChIAPoP_manual.pdf
+
 # Quick start
 
 The simplest way to use ChIAPoP package is to use ChIAPoP’s pipeline. The pipeline takes input data of two fastq reads files (e.g., read_1.fq and read_2.fq) from ChIA-PET experiment with the original protocol, as well the basename of the genome reference index of bowtie and the associated genome reference name (e.g. hg19). In addition, users also need specify bowtie and macs2 installation paths. The pipeline then does all analysis work including: linker trimming and reads separation, reads alignment, aligned reads filtering, peaking calling, model parameter estimation, calculation of statistical significance of potentially interactive pairs of DNA regions (potential pairs), and giving the final reports with tables and figures. For more advanced analysis, users can use ChIAPoP pipeline individual functions for gaining fine control of their ChIA-PET data analysis. Please see the ChIAPoP reference manual for all functions available and their usages. A simple usage of the pipeline is given as the following.

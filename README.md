@@ -5,7 +5,7 @@ ChIAPoP: an integrated tool for ChIA-PET data analysis
 * `bowtie` (http://bowtie-bio.sourceforge.net/index.shtml) for read alignment
 * `macs2` (https://github.com/taoliu/MACS) for peak calling
 
-If `bowtie` and `macs2` are not installed in system search paths (e.g. `/usr/bin`), users will need to specify their installation directory  paths with the parameters `bowtie.path` and `macs2.path` for `bowtie` and `macs2`, respectively.  
+If `bowtie` and `macs2` are not installed in a system search path (e.g. `/usr/bin`), users will need to specify their installation directory  paths with the parameters `bowtie.path` and `macs2.path` for `bowtie` and `macs2`, respectively.  
 
 # Download and Installation
 

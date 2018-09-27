@@ -1,5 +1,5 @@
 # ChIAPoP
-ChIAPoP: An integrated tool for ChIA-PET data analysis
+ChIAPoP: an integrated tool for ChIA-PET data analysis
 
 # Prerequisite tools
 * `bowtie` (http://bowtie-bio.sourceforge.net/index.shtml) for read alignment

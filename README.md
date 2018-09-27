@@ -15,7 +15,7 @@ If `bowtie` and `macs2` are not installed in a system search path (e.g. `/usr/bi
 * R CMD INSTALL ChIAPoP_0.99.9.5.tar.gz
 ```
 # Documentation
-The full ChIAPoP R Package manual is available at https://github.com/wh90999/ChIAPoP/ChIAPoP_manual.pdf
+The full ChIAPoP R Package manual is available at https://github.com/wh90999/ChIAPoP/ChIAPoP-manual.pdf
 
 # Quick start
 

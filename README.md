@@ -12,7 +12,7 @@ If `bowtie` and `macs2` are not installed in a system search path (e.g. `/usr/bi
   ```
 * git clone https://github.com/wh90999/ChIAPoP
 * cd ChIAPoP
-* R CMD INSTALL ChIAPoP_0.99.9.5.tar.gz
+* R CMD INSTALL ChIAPoP_0.99.9.6.tar.gz
 ```
 # Documentation
 The full ChIAPoP R Package manual is available at https://github.com/wh90999/ChIAPoP/blob/master/ChIAPoP-manual.pdf.
